@@ -27,3 +27,4 @@ static class HTMLfile
         return Results.Content(html, "text/html");
     }
 }
+
