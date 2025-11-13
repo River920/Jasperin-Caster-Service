@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/river-git/Storage Disk/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/Background.csproj",
+      "projectUniqueName": "/media/river-git/Storage Disk/Jasperin-Caster-Service/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/Background.csproj",
       "projectName": "Background",
-      "projectPath": "/media/river-git/Storage Disk/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/Background.csproj",
+      "projectPath": "/media/river-git/Storage Disk/Jasperin-Caster-Service/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/Background.csproj",
       "packagesPath": "/home/river-git/.nuget/packages/",
-      "outputPath": "/media/river-git/Storage Disk/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/obj/",
+      "outputPath": "/media/river-git/Storage Disk/Jasperin-Caster-Service/JsprnCstrSrvc/Jasperin Caster Service/CS/Background/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/river-git/.nuget/NuGet/NuGet.Config"
