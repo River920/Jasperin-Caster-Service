@@ -5,6 +5,7 @@
 <p>Current state determined by if there is a warning currently ongoing<br>or if there is a malfunction... This system uses a seperate <a href="http://localhost:6899/processid">process</a><br> which checks the state of each system every 30s to determine the health of our system.</p>
 <button type="button" onclick="alertvar(3)">
 CAW: 3: Civil Alert Warning</button>
+<!--button makes the var alertvar = whatever the number in the parameters is and makes checkstate = 1 so that the cs file knows when to check the alertvar variable-->
 <script>
   let checkstate = 0
   
@@ -20,6 +21,6 @@ CAW: 3: Civil Alert Warning</button>
 </body>
 </html> 
 http://localhost:6899/send
-http://wams.info/send
+http://jcs.info/send
 
 wams stands for Web Alert Module System

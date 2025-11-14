@@ -1,12 +1,12 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-
+//start here
 app.MapGet("/send", HTMLfile.ShowHTMLforSend);
 app.MapGet("/processid", HTMLfile.ShowHTMLforProcessid);
 app.MapGet("/", HTMLfile.ShowHTMLforMain);
-
+//makes all the subdirs
 app.Run("http://localhost:6899");
-
+//start the web app
 static class HTMLfile
 {
     public static async Task<IResult> ShowHTMLforSend()
@@ -27,4 +27,4 @@ static class HTMLfile
         return Results.Content(html, "text/html");
     }
 }
-
+//file links for subdirs
