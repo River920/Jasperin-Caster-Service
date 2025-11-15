@@ -28,3 +28,7 @@ static class HTMLfile
     }
 }
 //file links for subdirs
+
+
+//fetch system
+//waits for checkstate to = 1 then fetches alertvar's number and sends it to main
