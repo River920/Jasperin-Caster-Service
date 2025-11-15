@@ -31,4 +31,4 @@ static class HTMLfile
 
 
 //fetch system
-//waits for checkstate to = 1 then fetches alertvar's number and sends it to main
+//waits for checkstate to = 1 then fetches alertvar's number and sets checkstate(coming soon) to 1 so that main knows when to fetch alertvar
